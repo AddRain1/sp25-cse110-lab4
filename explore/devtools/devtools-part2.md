@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 are typed as strings, so the + concatenates them together instead of numerical addition. 
+2. To fix it, I would use parseInt() to convert the string to an integer value, allowing for numerical addition.
